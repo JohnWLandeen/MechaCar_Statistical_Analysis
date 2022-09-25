@@ -3,7 +3,7 @@
 
 ## Linear Regression to Predict MPG
 
-Assuming that we have a significance level of 0.05 and a confidence Interval of 0.95, we find that the three variables vehicle_weight, spoiler_angle, and AWD have substantially larger p-values than our significance level. Vehicle length and ground clearance have very small p-values and provide non-random variance to our dependant variable mpg. Any particular slope in this multiple linear regression would not be considered 0. Even a difficult diagnosis with the boolean values from AWD will not produce a nullified slope due to variance in the dataset. Our multiple R-Squared gives us an idea of reasonably high strength in our correlation being 0.7149. Certain linear regressions involving variables such as spoiler_angle and AWD do not predict mpg prototypes effectively due to the nonlinear nature of the data.
+Assuming that we have a significance level of 0.05 and a confidence Interval of 0.95, we find that the three variables vehicle_weight, spoiler_angle, and AWD have substantially larger p-values than our significance level. Vehicle length and ground clearance have miniscule p-values providing non-random variance to our dependant variable mpg. Any particular slope in this multiple linear regression would not be considered 0. Even a difficult diagnosis with the boolean values from AWD will not produce a nullified slope due to variance in the dataset. Our multiple R-Squared gives us an idea of reasonably high strength in our correlation being 0.7149. Certain linear regressions involving variables such as spoiler_angle and AWD do not predict mpg prototypes effectively due to the nonlinear nature of the data.
 
 `
 
